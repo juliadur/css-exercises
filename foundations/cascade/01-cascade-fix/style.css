@@ -12,11 +12,12 @@ body {
   font-weight: 800;
 }
 
+/* Is this needed? */
 .para {
   font-size: 22px;
 }
 
-.confirm {
+#confirm-button {
   background: green;
   color: white;
   font-weight: bold;
