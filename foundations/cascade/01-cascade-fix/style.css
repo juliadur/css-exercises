@@ -12,12 +12,12 @@ body {
   font-weight: 800;
 }
 
-/* Is this needed? */
+/* Is this needed? nope, but couldn't modify styles*/
 .para {
   font-size: 22px;
 }
 
-#confirm-button {
+#confirm-button {    /*I simply switched order of rules*/
   background: green;
   color: white;
   font-weight: bold;
@@ -29,14 +29,15 @@ body {
   font-size: 20px;
 }
 
-.text.child {
+.text.child { /*it's ok ma mi sto basando sulla specificità e non sulla cascata*/
   color: rgb(0, 0, 0);
   font-weight: 800;
   font-size: 14px;
 }
 
 .text {
-  color: rgb(0, 0, 0);
+  color: rgb(0, 0, 0); /*this is a repetition, but couldn't modify styles*/
   font-size: 22px;
   font-weight: 100;
 }
+
