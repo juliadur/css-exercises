@@ -15,18 +15,18 @@ body {
   flex-direction: row;
   justify-content: center;
   gap: 52px;
-  margin:
+  margin: /*senza valore, grande Giù*/
 }
 
 img {
 width: 100px;
-align-items: center;
+align-items: center; /*Di default è inline o inline-block, quindi non funziona, in più align-items e co. vanno solo con elementi flex, img can't be flex*/
 }
 
 .item {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
+  flex-wrap: wrap; /*non serviva perchè testo va naturalmente sotto img da html*/
   align-items: center;
 
 }
