@@ -34,35 +34,32 @@ ul {
 
 a {
   text-decoration: none;
+  color: black;
 }
 
 .header, .footer {
   display: flex;
+  flex-direction: column;
   flex: 1;
   padding: 16px;
   gap: 16px;
+  justify-content: space-between;
 }
 
-
-.header {
- display: flex;
-  justify-content: flex-start;
-}   
-
 .footer {
- display: flex;
-  justify-content: flex-end;
   background-color: #eee;
 } 
 
 .left-links {
   display: flex;
+  flex-direction: column;
   gap: 16px;
   align-items: flex-start;
 }
 
 .right-links {
   display: flex;
+  flex-direction: column;
   gap: 16px;
   align-items: flex-end;
 }
@@ -72,6 +69,12 @@ a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 16px
+  margin: 16px;
 }
 
+.buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  margin: 16px;
+}
