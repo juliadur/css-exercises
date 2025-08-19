@@ -39,11 +39,11 @@ a {
 
 .header, .footer {
   display: flex;
-  flex-direction: column;
   flex: 1;
   padding: 16px;
   gap: 16px;
   justify-content: space-between;
+  align-items: center;
 }
 
 .footer {
@@ -77,4 +77,5 @@ a {
   flex-direction: row;
   gap: 16px;
   margin: 16px;
+  padding: 16px;
 }
