@@ -31,7 +31,7 @@ input {
 ul {
   list-style: none;
   margin: 8px;
-  padding: 0;
+  padding: 8px;
 
 }
 
@@ -42,7 +42,6 @@ a {
 
 .header, .footer {
   display: flex;
-  flex: 1 0 auto;
   gap: 16px;
   justify-content: space-between;
   align-items: center;
@@ -50,6 +49,7 @@ a {
 
 .footer {
   background-color: #eee;
+  align-items: flex-end;
 } 
 
 .left-links {
@@ -67,6 +67,7 @@ a {
 .content {
   display: flex;
   flex-direction: column;
+  flex: 1;
   align-items: center;
   justify-content: center;
   margin: 16px;
