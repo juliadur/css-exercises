@@ -30,7 +30,9 @@ input {
 
 ul {
   list-style: none;
-  margin-left: 0;
+  margin: 8px;
+  padding: 0;
+
 }
 
 a {
@@ -40,8 +42,7 @@ a {
 
 .header, .footer {
   display: flex;
-  flex: 1;
-  padding: 16px;
+  flex: 1 0 auto;
   gap: 16px;
   justify-content: space-between;
   align-items: center;
